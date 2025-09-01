@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import React, { useRef } from "react";
+import React from "react";
 import { roraima } from "../fonts";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 function CollegeInfo() {
   return (
@@ -21,7 +21,7 @@ function CollegeInfo() {
               "text-xl text-gray-100 my-2 px-4"
             )}
           >
-            BHARTIYA VIDYA BHAVANS
+            BHARTIYA VIDYA BHAVAN&apos;S
           </motion.h1>
           <p className="mb-6">
             M. M. College Of Arts, N. M. Institute Of Science, H. R. J. College
@@ -37,7 +37,7 @@ function CollegeInfo() {
           </motion.h1>
           <p className="mt-4 text-sm">(Autonomous 2020-30)</p>
           <p className="text-sm">
-            Established in 1946 | Re-accredited "A" Grade by NAAC | Munshi
+            Established in 1946 | Re-accredited &quot;A&quot; Grade by NAAC | Munshi
             Nagar, Andheri (W), Mumbai - 400058
           </p>
         </div>

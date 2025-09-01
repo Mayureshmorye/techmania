@@ -17,7 +17,6 @@ export const Schedule = () => {
   const subtitleRef = useRef(null);
   const subtitleIsInView = useInView(subtitleRef, {
     margin: "-20%",
-    once: true,
   });
 
   return (

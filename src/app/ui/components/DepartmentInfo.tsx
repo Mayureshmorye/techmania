@@ -4,22 +4,37 @@ import { roraima } from "../fonts";
 import { motion, useInView } from "framer-motion";
 
 function DepartmentInfo() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { margin: "-15%" });
+  const titleRef = useRef(null);
+  const titleIsInView = useInView(titleRef, { margin: "-20%" });
+  const subtitleRef = useRef(null);
+  const subtitleIsInView = useInView(subtitleRef, {
+    margin: "-20%",
+  });
+
   return (
     <article id="about_bsc_it" className="relative pt-20">
       <div className="relative z-20">
         <motion.h1
-          ref={ref}
-          initial={{ opacity: 0, y: 0 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          ref={titleRef}
+          initial={{ opacity: 0, y: 40 }}
+          animate={titleIsInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, ease: "easeOut" }}
           className={clsx(
             roraima.className,
-            "text-5xl text-gray-100 text-center mb-6"
+            "text-5xl text-gray-100 mb-6 px-4 text-center"
           )}
         >
-          About BSC I.T.
+          <motion.span
+            ref={subtitleRef}
+            initial={{ opacity: 0, y: 40 }}
+            animate={subtitleIsInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="text-2xl text-gray-100"
+          >
+            About
+          </motion.span>
+          <br />
+          BSC I.T.
         </motion.h1>
         <p className="text-gray-200 text-center leading-relaxed px-6 mb-4">
           The Department of Information Technology, established in 2001, has

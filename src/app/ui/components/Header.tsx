@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { Logo } from "./Logo";
 import Link from "next/link";
 import { roraima } from "../fonts";
+import Image from "next/image";
 type HeaderLink = {
   linkTo: string;
   text: string;
@@ -15,6 +16,7 @@ function Header() {
 
   const headerLink: HeaderLink[] = [
     { linkTo: "/#home", text: "Home" },
+    { linkTo: "/#about_bhavans", text: "About Bhavans" },
     { linkTo: "/#about_bsc_it", text: "About BSC I.T." },
     { linkTo: "/#about_techmania", text: "What is TechMania?" },
     { linkTo: "/#schedule", text: "Schedule" },
@@ -28,6 +30,7 @@ function Header() {
       <div className="w-[calc(100vw-48px)]"
       >
         <div className="md:grid md:grid-cols-3 flex items-center justify-between gap-4 p-3 relative">
+          <Image src="/images/bhavans-logo.jpg" alt="bhavans logo" width={30} height={30} className="rounded-full"/>
           <Logo />
           <IconMenu
             className="cursor-pointer md:mx-auto"

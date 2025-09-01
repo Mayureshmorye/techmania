@@ -7,6 +7,7 @@ import { Schedule } from "./ui/components/Schedule";
 import { Events } from "./ui/components/Events";
 import { Contact } from "./ui/components/Contact";
 import { Thanks } from "./ui/components/Thanks";
+import CollegeInfo from "./ui/components/CollegeInfo";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
           className="w-screen h-screen overflow-hidden object-cover fixed top-0 left-0 brightness-40 object-bottom"
         />
         <Hero />
+        <CollegeInfo />
         <DepartmentInfo />
         <FestInfo />
         <Schedule />

@@ -35,7 +35,14 @@ export const EventCard = ({ event, i }: { event: Event; i: number }) => {
         stiffness: 80,
         damping: 15,
       }}
-      className="flex flex-col items-center gap-4 text-center mr-4 mx-[24px] p-6 bg-gray-950"
+      className={clsx(
+        "flex flex-col items-center gap-4 text-center mr-4 mx-[24px] p-6",
+        // "bg-gradient-to-br from-[#1e293bcb] to-[#312e81d2] bg-opacity-50 border-2 border-t-32 rounded-xl border-[#5c57e63e]" indigo blueish bg
+        // "[background:linear-gradient(135deg,#4f4f4fcb,#000000cb)] border-2 border-[#5f5f5fd2] rounded-xl" granite gray black gradient with border
+        // "border-2 border-gray-500 rounded-xl inset-shadow-[0px_0px_20px_15px] bg-gray-500/30 inset-shadow-gray-500/30" gray with border inset shadow
+        "[background:linear-gradient(135deg,#8b401ac0,#000000cb)] border-2 border-[#8b401a] rounded-xl inset-shadow-[0px_0px_20px_15px] inset-shadow-[#8b401a]/40"
+        // "bg-[#00cee1c0] rounded-xl shadow-[0px_0px_10px_10px] shadow-[#00cee16c]" blue bg with blue glowing shadow
+      )}
     >
       <Image
         src={event.logoUrl}
@@ -47,15 +54,17 @@ export const EventCard = ({ event, i }: { event: Event; i: number }) => {
       <h1 className={clsx(roraima.className, "text-3xl mt-4")}>
         {event.title}
       </h1>
-      <p className="text-gray-400 pb-4">{event.subtitle}</p>
+      <p className="text-gray-300 pb-4">{event.subtitle}</p>
       <Link
-        className="border border-white active:bg-gray-900 transition-all w-full py-3"
+        className="border-2 border-[#8b401a] bg-gray-950/10 text-gray-300 transition-all w-full py-3"
         href={event.knowMoreHref}
       >
         Read more ...
       </Link>
       <Link
-        className="flex items-center justify-center w-full gap-2 bg-white text-black py-3 active:bg-gray-200 transition-all"
+        className="bg-[#8b401a] hover:bg-[#a94e22] text-white 
+border-2 border-[#a94e22] shadow-lg shadow-[#8b401a]/50 w-full flex items-center justify-center py-3"
+        // className="flex items-center justify-center w-full gap-2 bg-white text-black py-3 active:bg-gray-200 transition-all"
         href={event.registrationLink}
       >
         Register

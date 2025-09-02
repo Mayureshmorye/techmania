@@ -1,7 +1,7 @@
 export const FramePeFameDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Round Structure</h4>
+      <h4 className="text-lg mb-4 text-white">Round Structure</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200 mb-2">
         <li>
           - Create a 30-60 second reel based on a surprise theme for which top
@@ -16,7 +16,7 @@ export const FramePeFameDetails = () => {
           and Creativity, where only the top 3 participants will be selected.
         </li>
       </ul>
-      <h4 className="text-lg mb-4">Rules & Regulations</h4>
+      <h4 className="text-lg mb-4 text-white">Rules & Regulations</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200">
         <li>- Video format must be .mp4 or .mov.</li>
         <li>

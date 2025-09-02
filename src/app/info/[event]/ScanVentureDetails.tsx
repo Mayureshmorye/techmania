@@ -1,7 +1,7 @@
 export const ScanVentureDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Rules & Regulationns</h4>
+      <h4 className="text-lg mb-4 text-white">Rules & Regulationns</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200">
         <li>
           - Do not enter restricted or under-construction areas of the college,

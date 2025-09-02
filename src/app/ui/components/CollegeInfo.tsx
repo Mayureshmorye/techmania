@@ -14,7 +14,7 @@ function CollegeInfo() {
           height={150}
           className="rounded-full mx-auto brightness-90"
         />
-        <div className="mb-6 px-4">
+        <div className="mb-6 px-4 text-gray-100">
           <motion.h1
             className={clsx(
               roraima.className,
@@ -37,11 +37,11 @@ function CollegeInfo() {
           </motion.h1>
           <p className="mt-4 text-sm">(Autonomous 2020-30)</p>
           <p className="text-sm">
-            Established in 1946 | Re-accredited &quot;A&quot; Grade by NAAC | Munshi
-            Nagar, Andheri (W), Mumbai - 400058
+            Established in 1946 | Re-accredited &quot;A&quot; Grade by NAAC |
+            Munshi Nagar, Andheri (W), Mumbai - 400058
           </p>
         </div>
-        <hr className="mx-4 mb-6" />
+        <hr className="mx-4 mb-6 text-gray-100" />
         <p className="text-gray-200 text-center leading-relaxed px-6 mb-4">
           Bhavan&apos;s College, established in 1946 under the Bharatiya Vidya
           Bhavan trust, is an autonomous institution affiliated with the

@@ -1,7 +1,7 @@
 export const StockStrikeDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Rules & Regulations</h4>
+      <h4 className="text-lg mb-4 text-white">Rules & Regulations</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200">
         <li>- Virtual trading account with ₹10,00,000 balance.</li>
         <li>- Only official simulation software allowed.</li>

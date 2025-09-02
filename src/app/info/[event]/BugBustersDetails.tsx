@@ -1,7 +1,7 @@
 export const BugBustersDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Round Structure</h4>
+      <h4 className="text-lg mb-4 text-white">Round Structure</h4>
       <div className="px-4 flex flex-col gap-2 pb-4">
         <h5 className="text-lg mb-2">Total 3 rounds (Python, C++, Java).</h5>
         <p className="text-gray-200">

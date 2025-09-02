@@ -21,7 +21,7 @@ export const WordWarsDetails = () => {
         <li>- Arguments with organizers/judges will not be tolerated.</li>
       </ul>
       <div className="p-4 mb-2 bg-black rounded-lg">
-        <h4 className="text-lg mb-4 text-white flex gap-2 items-center bg-gray-100 text-black rounded-lg justify-center">
+        <h4 className="text-lg mb-4 flex gap-2 items-center bg-gray-100 text-black rounded-lg justify-center tracking-tight">
           <IconPencil size={20} stroke={1.5}/> Note
         </h4>
         <p className="text-gray-200 text-sm">

@@ -2,9 +2,9 @@ export const BugBustersDetails = () => {
   return (
     <div className="relative">
       <h4 className="text-lg mb-4 text-white">Round Structure</h4>
-      <div className="px-4 flex flex-col gap-2 pb-4">
+      <div className="px-4 flex flex-col gap-2 pb-4 text-gray-100">
         <h5 className="text-lg mb-2">Total 3 rounds (Python, C++, Java).</h5>
-        <p className="text-gray-200">
+        <p className="text-gray-100">
           Round 1: Syntax errors (Easy-Moderate).
           <br />
           Round 2: Syntax + Logic errors (Moderate).
@@ -12,7 +12,7 @@ export const BugBustersDetails = () => {
           Round 3: Syntax + Logic errors (Hard).
         </p>
       </div>
-      <h4 className="text-lg my-4">Rules & Regulations</h4>
+      <h4 className="text-lg my-4 text-gray-100">Rules & Regulations</h4>
       <ul className="px-4 flex flex-col gap-2 text-gray-200 pb-4">
         <li>- Individual participation (College ID required).</li>
         <li>- Environment: Notepad (buggy code provided).</li>

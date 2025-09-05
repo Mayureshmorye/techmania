@@ -67,7 +67,7 @@ export const Contact = () => {
         growth, creativity, and excellence. Their support helps us bring this
         event to life.
       </p>
-      <div className="flex justify-between px-4 items-center mt-6 max-w-[450px]">
+      <div className="flex justify-between px-4 mx-auto items-center mt-6 max-w-[450px]">
         <div className="h-16 flex items-center bg-white">
           <Image
             alt="logo of operisoft"

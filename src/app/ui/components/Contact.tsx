@@ -1,11 +1,12 @@
+import { IconAt } from "@tabler/icons-react";
 import { roraima } from "../fonts";
 import clsx from "clsx";
 
 export const Contact = () => {
   const contact = [
-    { name: "Arya Satam", no: "9321965503" },
-    { name: "Mayuresh Morye", no: "9004796716" },
-    { name: "Kartik Kute", no: "8329395481" },
+    { designation: "Chief Organizer",name: "Arya Satam", no: "9321965503" },
+    { designation: "Chief Organizer",name: "Mayuresh Morye", no: "9004796716" },
+    { designation: "Event Head",name: "Kartik Kute", no: "8329395481" },
   ];
 
   const copyNumber = async (no: string) => {
@@ -31,7 +32,8 @@ export const Contact = () => {
         {contact.map((contact, i) => (
           <li key={i}>
             <div className="py-8 text-center text-gray-100">
-              <h4 className={clsx(roraima.className, "text-2xl mb-2")}>
+              <p className="text-gray-300 flex justify-center items-center text-sm"><IconAt stroke={1.5} size={18}/> {contact.designation}</p>
+              <h4 className={clsx(roraima.className, "text-3xl mb-4")}>
                 {contact.name}
               </h4>
               <p

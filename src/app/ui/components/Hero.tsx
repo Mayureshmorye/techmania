@@ -110,7 +110,7 @@ function Hero() {
           "text-3xl text-gray-100 text-center mt-20 mb-4"
         )}
       >
-        Time Till Event:
+        Countdown To Event
       </div>
       <div className="flex justify-between items-center w-full px-8 text-gray-200 ">
         <div className="text-center">

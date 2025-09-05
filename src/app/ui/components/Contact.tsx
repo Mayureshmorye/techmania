@@ -43,7 +43,7 @@ export const Contact = () => {
                 {contact.no}
               </p>
             </div>
-            <div className="w-full h-[1px] bg-white"></div>
+            {i !== 2 && <div className="w-full h-[1px] bg-white"></div>}
           </li>
         ))}
       </ul>

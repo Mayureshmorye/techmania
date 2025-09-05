@@ -278,13 +278,13 @@ function MainDetails({ eventDetails }: { eventDetails: MainDetails }) {
             height={90}
             className="rounded-full"
           />
-          <h1 className={clsx(roraima.className, "text-4xl text-center")}>
+          <h1 className={clsx(roraima.className, "text-4xl text-center text-white")}>
             {eventDetails.name}
           </h1>
         </div>
 
-        <div className="w-full box-border mb-2">
-          <h4 className="text-lg mb-4">Schedule & Venue</h4>
+        <div className="w-full box-border mb-2 text-gray-100">
+          <h4 className="text-lg mb-4 text-white">Schedule & Venue</h4>
           <div className="grid grid-cols-3 gap-4 px-4">
             <span className="flex justify-between">
               <p>Day</p>
@@ -304,8 +304,8 @@ function MainDetails({ eventDetails }: { eventDetails: MainDetails }) {
           </div>
         </div>
 
-        <div className="w-full box-border mb-2">
-          <h4 className="text-lg mb-4">Participation Details</h4>
+        <div className="w-full box-border mb-2 text-white">
+          <h4 className="text-lg mb-4 text-white">Participation Details</h4>
           <div className="grid grid-cols-3 gap-4 px-4">
             <span className="flex justify-between">
               <p>Type</p>

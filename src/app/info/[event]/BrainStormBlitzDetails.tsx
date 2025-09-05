@@ -1,7 +1,7 @@
 export const BrainStormBlitzDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Rules & Regulations</h4>
+      <h4 className="text-lg mb-4 text-white">Rules & Regulations</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200 mb-2">
         <li>
           - Rapid Sparks on the Wayground App features 30 multiple-choice
@@ -19,7 +19,7 @@ export const BrainStormBlitzDetails = () => {
           using the Buzzer App.
         </li>
       </ul>
-      <h4 className="text-lg mb-4">Rules & Regulations</h4>
+      <h4 className="text-lg mb-4 text-white">Rules & Regulations</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200">
         <li>
           - All The Participant Should have Installed both Wayground(Quizz) &

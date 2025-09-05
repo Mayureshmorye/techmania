@@ -1,7 +1,7 @@
 export const TechAThonDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Rounds</h4>
+      <h4 className="text-lg mb-4 text-white">Rounds</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200">
         <li>
           - Participants must develop visually accurate web page based on given

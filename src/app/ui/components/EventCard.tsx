@@ -37,11 +37,9 @@ export const EventCard = ({ event, i }: { event: Event; i: number }) => {
       }}
       className={clsx(
         "flex flex-col items-center gap-4 text-center mr-4 mx-[24px] p-6",
-        // "bg-gradient-to-br from-[#1e293bcb] to-[#312e81d2] bg-opacity-50 border-2 border-t-32 rounded-xl border-[#5c57e63e]" indigo blueish bg
         // "[background:linear-gradient(135deg,#4f4f4fcb,#000000cb)] border-2 border-[#5f5f5fd2] rounded-xl" granite gray black gradient with border
         // "border-2 border-gray-500 rounded-xl inset-shadow-[0px_0px_20px_15px] bg-gray-500/30 inset-shadow-gray-500/30" gray with border inset shadow
         "[background:linear-gradient(135deg,#8b401ac0,#000000cb)] border-2 border-[#8b401a] rounded-xl inset-shadow-[0px_0px_20px_15px] inset-shadow-[#8b401a]/40"
-        // "bg-[#00cee1c0] rounded-xl shadow-[0px_0px_10px_10px] shadow-[#00cee16c]" blue bg with blue glowing shadow
       )}
     >
       <Image
@@ -51,7 +49,7 @@ export const EventCard = ({ event, i }: { event: Event; i: number }) => {
         height={200}
         className="rounded-full"
       />
-      <h1 className={clsx(roraima.className, "text-3xl mt-4")}>
+      <h1 className={clsx(roraima.className, "text-3xl mt-4 text-white")}>
         {event.title}
       </h1>
       <p className="text-gray-300 pb-4">{event.subtitle}</p>

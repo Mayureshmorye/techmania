@@ -1,7 +1,7 @@
 export const NextGenTalentDetails = () => {
   return (
     <div className="relative">
-      <h4 className="text-lg mb-4">Dance</h4>
+      <h4 className="text-lg mb-4 text-white">Dance</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200 mb-2">
         <li>- Solo Performance: Each participant must perform individually.</li>
         <li>
@@ -22,7 +22,7 @@ export const NextGenTalentDetails = () => {
           needed.
         </li>
       </ul>
-      <h4 className="text-lg mb-4">Singing</h4>
+      <h4 className="text-lg mb-4 text-white">Singing</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200 mb-2">
         <li>- Solo Performance: Each participant must perform individually.</li>
         <li>- Song Selection: Mashups are not allowed.</li>
@@ -43,7 +43,7 @@ export const NextGenTalentDetails = () => {
           needed.
         </li>
       </ul>
-      <h4 className="text-lg mb-4">Stand-up Comedy</h4>
+      <h4 className="text-lg mb-4 text-white">Stand-up Comedy</h4>
       <ul className="px-4 flex flex-col gap-2 pb-4 text-gray-200 mb-2">
         <li>- Solo Performance: Each participant must perform individually.</li>
         <li>
